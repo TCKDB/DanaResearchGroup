@@ -1,6 +1,6 @@
-# ADD these lines to youe .bashrc file on your LOCAL computer. DOn't delete any of the existing lines in the .bashrc file.
-# Don't forget to replace all ocurrences of "[username]" with your actual username on Atlas (also delete the brackets, [ and ]).
-# You may delete these three lines now.
+# ADD these lines to youe .bashrc file on your LOCAL computer. Don't delete any of the existing lines in the .bashrc file.
+# Don't forget to replace all ocurrences of "[username]" with your actual username on Atlas (also delete the brackets, "[" and "]").
+# You may delete these three lines.
 
 
 # RMG-Py
