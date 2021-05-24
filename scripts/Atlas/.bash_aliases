@@ -16,24 +16,24 @@ unset __conda_setup
 
 
 # RMG-Py
-export rmgpy_path='/srv01/technion/[username]/Code/RMG-Py/'
-export rmgdb_path='/srv01/technion/[username]/Code/RMG-database/'
-export PYTHONPATH=$PYTHONPATH:/srv01/technion/[username]/Code/RMG-Py/
+export rmgpy_path='/Local/ce_dana/Code/RMG-Py/'
+export rmgdb_path='/Local/ce_dana/Code/RMG-database/'
+export PYTHONPATH=$PYTHONPATH:/Local/ce_dana/Code/RMG-Py/
 
 # ARC
-export arc_path='/srv01/technion/[username]/Code/ARC/'
-export PYTHONPATH=$PYTHONPATH:/srv01/technion/[username]/Code/ARC/
-export PYTHONPATH=$PYTHONPATH:/srv01/technion/[username]/Code/AutoTST/
-export PYTHONPATH=$PYTHONPATH:/srv01/technion/[username]/Code/KinBot/
-export PYTHONPATH=$PYTHONPATH:/srv01/technion/[username]/Code/TS-GCN/
+export arc_path='/Local/ce_dana/Code/ARC/'
+export PYTHONPATH=$PYTHONPATH:/Local/ce_dana/Code/ARC/
+export PYTHONPATH=$PYTHONPATH:/Local/ce_dana/Code/AutoTST/
+export PYTHONPATH=$PYTHONPATH:/Local/ce_dana/Code/KinBot/
+export PYTHONPATH=$PYTHONPATH:/Local/ce_dana/Code/TS-GCN/
 
 # T3
-export t3_path='/srv01/technion/[username]/Code/T3/'
-export PYTHONPATH=$PYTHONPATH:/srv01/technion/[username]/Code/T3/
+export t3_path='/Local/ce_dana/Code/T3/'
+export PYTHONPATH=$PYTHONPATH:/Local/ce_dana/Code/T3/
 
 # TCKDB
-export tckdb_path='/srv01/technion/[username]/Code/TCKDB/'
-export PYTHONPATH=$PYTHONPATH:/srv01/technion/[username]/Code/TCKDB/
+export tckdb_path='/Local/ce_dana/Code/TCKDB/'
+export PYTHONPATH=$PYTHONPATH:/Local/ce_dana/Code/TCKDB/
 
 # RMS
 export PATH="$HOME/julia/bin:$PATH"
