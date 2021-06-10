@@ -1,5 +1,7 @@
 executable = job.sh
 
++JobName   = "xa1001"   <---- Change the job name each time
+
 log        = log.txt
 output     = out.txt
 error      = err.txt
