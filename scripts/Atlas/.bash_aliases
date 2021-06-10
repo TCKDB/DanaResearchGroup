@@ -65,6 +65,6 @@ alias t3='python $t3_path/T3.py input.yml'
 alias tst='pytest -ra -vv'
 
 alias sb='condor_submit submit.sub'
-alias st='condor_q -cons "Member(Jobstatus,{1,2})" -af:j "{\"0\",\"P\",\"R\",\"X\",\"C\",\"H\",\">\",\"S\"}[JobStatus]" RequestCpus RequestMemory JobName'
+alias st='condor_q -cons "Member(Jobstatus,{1,2})" -af:j "{\"0\",\"P\",\"R\",\"X\",\"C\",\"H\",\">\",\"S\"}[JobStatus]" RequestCpus RequestMemory JobName "(Time() - EnteredCurrentStatus)"'
 alias runs='cd /storage/ce_dana/[username]/runs'
 
