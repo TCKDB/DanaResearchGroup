@@ -11,7 +11,7 @@ servers = {
         'path': '/storage/ce_dana/',
         'cluster_soft': 'HTCondor',
         'un': '[username]',
-        'cpus': 5,
+        'cpus': 8,
         'memory': 256,
     },
 }
