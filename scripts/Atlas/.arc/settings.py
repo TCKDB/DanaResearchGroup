@@ -28,3 +28,10 @@ global_ess_settings = {
 # Electronic structure software ARC may access (use lowercase):
 supported_ess = ['gaussian', 'molpro', 'orca']
 
+
+# Default job memory, cpu, time settings
+default_job_settings = {
+    'job_total_memory_gb': 6,
+    'job_cpu_cores': 8,
+}
+
