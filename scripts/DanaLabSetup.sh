@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # location of the Dropbox folder
-DBDIR="${HOME}/Dropbox/"
+DBDIR="${HOME}/Dropbox"
 
 
 
