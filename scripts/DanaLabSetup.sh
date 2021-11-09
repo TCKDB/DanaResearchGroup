@@ -47,7 +47,7 @@ else
         for DIR in "${DIRECTORIES[@]}"; do
             echo $DIR
             rmdir $HOME/$DIR
-            if [[ $? != 0]]
+            if [[ $? != 0 ]]; then
                 echo -n "${DIR} is not empty - delete contents? [y/n]:"
                 read -n 1 ans
                 if [[ $ans == y ]]; then
