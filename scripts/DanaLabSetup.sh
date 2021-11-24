@@ -10,6 +10,7 @@ DBDIR="${HOME}/Dropbox"
 DIRECTORIES=(
     Code
     Documents
+    anaconda3
 )
 
 FILES=(
