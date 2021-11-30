@@ -28,7 +28,7 @@ export PATH="$HOME/julia/bin:$PATH"
 
 
 # Servers
-alias atlas='ssh [username]@tech-ui01.hep.technion.ac.il'
+alias atlas='ssh [username]@tech-ui02.hep.technion.ac.il'
 
 
 # personalized aliases
